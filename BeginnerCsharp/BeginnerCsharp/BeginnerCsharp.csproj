@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PrimitiveTypesAndExpressions\Operators.cs" />
     <Compile Include="PrimitiveTypesAndExpressions\TypeConversion.cs" />
     <Compile Include="PrimitiveTypesAndExpressions\VariablesAndDataTypes.cs" />
     <Compile Include="Program.cs" />

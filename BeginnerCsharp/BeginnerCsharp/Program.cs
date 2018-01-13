@@ -7,8 +7,8 @@ namespace BeginnerCsharp
     {
         static void Main(string[] args)
         {
-            TypeConversion obj = new TypeConversion();
-
+            Operators obj = new Operators();
+            
         }
     }
 }
