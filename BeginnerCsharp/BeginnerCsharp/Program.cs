@@ -8,7 +8,7 @@ namespace BeginnerCsharp
         static void Main(string[] args)
         {
             Operators obj = new Operators();
-            
+            obj.Logic();
         }
     }
 }
