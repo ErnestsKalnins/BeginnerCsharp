@@ -10,8 +10,8 @@ namespace BeginnerCsharp
     {
         static void Main(string[] args)
         {
-            Lists obj = new Lists();
-            obj.ListMethods();
+            ArraysAndLists.Exercises obj = new ArraysAndLists.Exercises();
+            obj.Exercise5();
         }
     }
 }
