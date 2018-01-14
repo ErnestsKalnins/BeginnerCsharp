@@ -9,8 +9,8 @@ namespace BeginnerCsharp
     {
         static void Main(string[] args)
         {
-            Conditionals obj = new Conditionals();
-            obj.IfStatements();
+            Loops obj = new Loops();
+            obj.WhileLoop();
         }
     }
 }
