@@ -59,6 +59,7 @@
     <Compile Include="PrimitiveTypesAndExpressions\VariablesAndDataTypes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TextManipulation\Strings.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

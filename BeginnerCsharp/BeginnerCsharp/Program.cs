@@ -3,6 +3,7 @@ using BeginnerCsharp.PrimitiveTypesAndExpressions;
 using BeginnerCsharp.NonPrimitiveTypes;
 using BeginnerCsharp.ControlFlow;
 using BeginnerCsharp.ArraysAndLists;
+using BeginnerCsharp.TextManipulation;
 
 namespace BeginnerCsharp
 {
@@ -10,8 +11,8 @@ namespace BeginnerCsharp
     {
         static void Main(string[] args)
         {
-            ArraysAndLists.Exercises obj = new ArraysAndLists.Exercises();
-            obj.Exercise5();
+            TextManipulation.Strings obj = new TextManipulation.Strings();
+            obj.Methods();
         }
     }
 }
