@@ -1,6 +1,7 @@
 ﻿using System;
 using BeginnerCsharp.PrimitiveTypesAndExpressions;
 using BeginnerCsharp.NonPrimitiveTypes;
+using BeginnerCsharp.ControlFlow;
 
 namespace BeginnerCsharp
 {
@@ -8,8 +9,8 @@ namespace BeginnerCsharp
     {
         static void Main(string[] args)
         {
-            ReferenceValueTypes obj = new ReferenceValueTypes();
-            obj.RefValTypClass();
+            Conditionals obj = new Conditionals();
+            obj.IfStatements();
         }
     }
 }
