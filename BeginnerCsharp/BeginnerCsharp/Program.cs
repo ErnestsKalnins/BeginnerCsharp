@@ -8,8 +8,8 @@ namespace BeginnerCsharp
     {
         static void Main(string[] args)
         {
-            Arrays array = new Arrays();
-            array.Initialization();
+            Strings obj = new Strings();
+            obj.StringCreation();
         }
     }
 }
