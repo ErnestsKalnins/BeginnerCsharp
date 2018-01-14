@@ -4,6 +4,7 @@ using BeginnerCsharp.NonPrimitiveTypes;
 using BeginnerCsharp.ControlFlow;
 using BeginnerCsharp.ArraysAndLists;
 using BeginnerCsharp.TextManipulation;
+using BeginnerCsharp.FileManipulation;
 
 namespace BeginnerCsharp
 {
@@ -11,9 +12,7 @@ namespace BeginnerCsharp
     {
         static void Main(string[] args)
         {
-            string text = "This is a really long text that i wrote for the purpose of testing this method.";
-            string summary = Summariser.Summary(text, 40);
-            Console.WriteLine(summary);
+            FileManipulation.PathManipulation.Methods();
         }
     }
 }
