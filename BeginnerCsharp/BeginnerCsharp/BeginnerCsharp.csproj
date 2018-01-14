@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArraysAndLists\ArraysAdvanced.cs" />
+    <Compile Include="ArraysAndLists\Lists.cs" />
     <Compile Include="ControlFlow\Conditionals.cs" />
     <Compile Include="ControlFlow\Exercises.cs" />
     <Compile Include="ControlFlow\Loops.cs" />
