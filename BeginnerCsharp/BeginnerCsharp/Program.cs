@@ -8,8 +8,8 @@ namespace BeginnerCsharp
     {
         static void Main(string[] args)
         {
-            Enums obj = new Enums();
-            obj.EnumMethod();
+            ReferenceValueTypes obj = new ReferenceValueTypes();
+            obj.RefValTyp();
         }
     }
 }

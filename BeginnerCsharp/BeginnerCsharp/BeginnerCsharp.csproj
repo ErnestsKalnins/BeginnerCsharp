@@ -45,6 +45,7 @@
     <Compile Include="NonPrimitiveTypes\Arrays.cs" />
     <Compile Include="NonPrimitiveTypes\Classes.cs" />
     <Compile Include="NonPrimitiveTypes\Enums.cs" />
+    <Compile Include="NonPrimitiveTypes\ReferenceValueTypes.cs" />
     <Compile Include="NonPrimitiveTypes\Strings.cs" />
     <Compile Include="PrimitiveTypesAndExpressions\Operators.cs" />
     <Compile Include="PrimitiveTypesAndExpressions\TypeConversion.cs" />
