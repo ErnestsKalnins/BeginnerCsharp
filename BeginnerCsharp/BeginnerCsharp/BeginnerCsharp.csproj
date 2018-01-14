@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ControlFlow\Conditionals.cs" />
+    <Compile Include="ControlFlow\Exercises.cs" />
     <Compile Include="ControlFlow\Loops.cs" />
     <Compile Include="ControlFlow\RNG.cs" />
     <Compile Include="NonPrimitiveTypes\Arrays.cs" />

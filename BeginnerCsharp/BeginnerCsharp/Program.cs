@@ -9,8 +9,8 @@ namespace BeginnerCsharp
     {
         static void Main(string[] args)
         {
-            RNG obj = new RNG();
-            obj.Random();
+            Exercises obj = new Exercises();
+            obj.Exercise9();
         }
     }
 }
