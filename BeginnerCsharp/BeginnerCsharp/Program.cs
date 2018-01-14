@@ -9,7 +9,7 @@ namespace BeginnerCsharp
         static void Main(string[] args)
         {
             ReferenceValueTypes obj = new ReferenceValueTypes();
-            obj.RefValTyp();
+            obj.RefValTypClass();
         }
     }
 }

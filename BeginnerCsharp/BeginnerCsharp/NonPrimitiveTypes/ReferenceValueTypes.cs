@@ -26,5 +26,27 @@ namespace BeginnerCsharp.NonPrimitiveTypes
              */ 
             Console.WriteLine(string.Format("array1[0]: {0}, array2[0]: {1}", array1[0], array2[0]));
         }
+        
+        public void RefValTypClass()
+        {
+            int number = 1;
+            Increment(number);
+            Console.WriteLine(number);
+
+            Person person = new Person() { age = 20 };
+            MakeOld(person);
+            Console.WriteLine(person.age);
+        }
+
+        public static void Increment(int number)
+        {
+            number += 10;
+        }
+
+        public static void MakeOld(Person person)
+        {
+            person.age += 10;
+        }
+
     }
 }
