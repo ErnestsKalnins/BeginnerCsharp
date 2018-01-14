@@ -1,5 +1,6 @@
 ﻿using System;
 using BeginnerCsharp.PrimitiveTypesAndExpressions;
+using BeginnerCsharp.NonPrimitiveTypes;
 
 namespace BeginnerCsharp
 {
@@ -7,8 +8,14 @@ namespace BeginnerCsharp
     {
         static void Main(string[] args)
         {
-            Operators obj = new Operators();
-            obj.Logic();
+            Person obj = new Person();
+            obj.firstName = "John";
+            obj.lastName = "Smith";
+            obj.Introduce();
+
+            Calculator calculator = new Calculator();
+            int result = calculator.Add(1, 2);
+            Console.WriteLine(result);
         }
     }
 }

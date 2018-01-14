@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NonPrimitiveTypes\Classes.cs" />
     <Compile Include="PrimitiveTypesAndExpressions\Operators.cs" />
     <Compile Include="PrimitiveTypesAndExpressions\TypeConversion.cs" />
     <Compile Include="PrimitiveTypesAndExpressions\VariablesAndDataTypes.cs" />
@@ -51,5 +52,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
