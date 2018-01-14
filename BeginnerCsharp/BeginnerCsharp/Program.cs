@@ -9,8 +9,8 @@ namespace BeginnerCsharp
     {
         static void Main(string[] args)
         {
-            Loops obj = new Loops();
-            obj.WhileLoop();
+            RNG obj = new RNG();
+            obj.Random();
         }
     }
 }
