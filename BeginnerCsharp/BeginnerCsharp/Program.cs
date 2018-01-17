@@ -12,7 +12,7 @@ namespace BeginnerCsharp
     {
         static void Main(string[] args)
         {
-            ArraysAndLists.Exercises.Exercise5.Exercise();
+            TextManipulation.Exercises.Exercise4.Exercise();
         }
     }
 }

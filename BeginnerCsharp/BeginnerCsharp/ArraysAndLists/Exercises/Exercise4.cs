@@ -18,7 +18,7 @@ namespace BeginnerCsharp.ArraysAndLists.Exercises
             {
                 buffer = QueryInput("Please enter a number: ");
 
-                if (buffer == "Quit")
+                if (buffer.ToLower() == "quit")
                     break;
 
                 try
@@ -31,21 +31,7 @@ namespace BeginnerCsharp.ArraysAndLists.Exercises
                     Console.WriteLine("Invalid input, try again!");
                 }
 
-                List<int> displayNumbers = new List<int>();
-
-                for (int i = 0; i < numbers.Count; i++)
-                {
-                    if (NumberExistsInList(numbers[i], displayNumbers))
-                    {
-                        continue;
-                    }
-                    else
-                    {
-                        displayNumbers.Add(numbers[i]);
-                    }
-                }
-
-                Console.WriteLine(string.Join(", ", displayNumbers));
+                Console.WriteLine(string.Join(", ", GetUniqueNumbers(numbers)));
             }
         }
 
@@ -65,9 +51,18 @@ namespace BeginnerCsharp.ArraysAndLists.Exercises
             return inputNumber;
         }
 
-        private static bool NumberExistsInList(int needle, List<int> haystack)
+        private static List<int> GetUniqueNumbers(List<int> numberArray)
         {
-            return haystack.IndexOf(needle) >= 0;
+            List<int> uniqueNumbers = new List<int>();
+
+            foreach (int number in numberArray)
+            {
+                if (!uniqueNumbers.Contains(number))
+                    uniqueNumbers.Add(number);
+
+            }
+
+            return uniqueNumbers;
         }
     }
 }

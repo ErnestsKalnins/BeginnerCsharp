@@ -14,7 +14,6 @@ namespace BeginnerCsharp.ArraysAndLists.Exercises
             Console.Write("Please enter your name: ");
             name = Console.ReadLine();
 
-
             string reversedName = ReverseString(name);
 
             Console.WriteLine(reversedName);
@@ -22,8 +21,11 @@ namespace BeginnerCsharp.ArraysAndLists.Exercises
 
         private static string ReverseString(string word)
         {
-            char[] buffer = word.ToCharArray();
-            Array.Reverse(buffer);
+            char[] buffer = new char[word.Length];
+
+            for (int i = word.Length; i > 0; i--)
+                buffer[word.Length - i] = word[i - 1];
+
             return new string(buffer);
         }
     }
