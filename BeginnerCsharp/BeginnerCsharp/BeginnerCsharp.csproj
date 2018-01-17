@@ -43,7 +43,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArraysAndLists\ArraysAdvanced.cs" />
-    <Compile Include="ArraysAndLists\Exercises.cs" />
+    <Compile Include="ArraysAndLists\Exercises\Exercise1.cs" />
+    <Compile Include="ArraysAndLists\Exercises\Exercise2.cs" />
+    <Compile Include="ArraysAndLists\Exercises\Exercise3.cs" />
+    <Compile Include="ArraysAndLists\Exercises\Exercise4.cs" />
+    <Compile Include="ArraysAndLists\Exercises\Exercise5.cs" />
     <Compile Include="ArraysAndLists\Lists.cs" />
     <Compile Include="ControlFlow\Conditionals.cs" />
     <Compile Include="ControlFlow\Exercises.cs" />

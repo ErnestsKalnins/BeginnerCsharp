@@ -12,7 +12,7 @@ namespace BeginnerCsharp
     {
         static void Main(string[] args)
         {
-            FileManipulation.PathManipulation.Methods();
+            ArraysAndLists.Exercises.Exercise5.Exercise();
         }
     }
 }
